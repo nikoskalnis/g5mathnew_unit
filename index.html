@@ -14,6 +14,9 @@
           return false;
         }
       }
+      function alertMessage(){
+        alert("Sorry, the hyperlink warned you that you were going to lose your progress by quitting. But you clicked it, so it is too late.")
+      }
     </script>
     <style>
       body{
@@ -51,6 +54,9 @@
     <p>1/2 x 1/3=<input type="text" id="box" value=""/></p>
     <a href="https://nikoskalnis.github.io/g5math/" onclick="return checkType();">
       Submit and Move On
+    </a>
+    <a href="https://nikoskalnis.github.io/math-homepage/" onclick="return alertMessage();">
+      Quit(YOU WILL LOSE YOUR PROGRESS UPON CLICKING)
     </a>
   </body>
 </html>
